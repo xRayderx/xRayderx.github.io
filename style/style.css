@@ -1,0 +1,232 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+#cuerpo{
+	background-color: #0B0C10;
+}
+
+main{
+	padding-bottom: 2rem;
+}
+
+/* Cabecera */
+
+header{
+	margin: 1.6rem 0;
+}
+
+.foto {
+	padding: 1rem 2rem 1rem;
+}
+
+.foto img{
+	display: block;
+	margin: 0 auto;
+
+	border-radius: 50%;
+	height: calc(6em + 8vw);
+	width: calc(6em + 8vw);
+	border: 2px solid #66FCF1;
+	box-shadow: 0.2em 0.2em 0.2em rgba(0, 0, 0, .5);
+}
+
+#subhead{
+	text-align: center;
+}
+
+.nombre{
+	margin: 1.6em;
+
+	color: #66FCF1;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-size: 1.6em;
+}
+
+@media only screen and (max-width: 599px){
+	.nombre{
+		font-size: 1.2em;
+		letter-spacing: 2px;
+	}
+}
+
+@media only screen and (max-width: 457px){
+	.nombre{
+		font-size: 1.1em;
+		letter-spacing: 2px;
+	}
+}
+
+/* Contenido */
+
+.contenido{
+	margin: 0 auto;
+	max-width: 825px;
+	padding: 1rem 1rem 2rem;
+	width: 100%;
+}
+
+.contenido p{
+	margin-bottom: 1.6rem;
+}
+
+.rrss{
+	text-align: center;
+}
+
+.fb_icon{
+	width: 100px;
+}
+
+.linkedin_icon{
+	width: 100px;
+}
+
+.tgram_icon{
+	width: 100px;
+}
+
+@media only screen and (max-width: 599px){
+	.fb_icon, .linkedin_icon, .tgram_icon{
+		width: 75px;
+	}
+}
+
+/* Acerca de mi */
+
+.about{
+	background-color: #1F2833; 
+	border-radius: 10px;
+	border: 1px solid #66FCF1;
+	box-shadow: 0 0 30px rgb(0 0 0 / 20%);
+
+	line-height: 1.5;
+	padding: 1.6rem;
+}
+
+.about p{
+	color: #C5C6C7;
+}
+
+.about h2{
+	text-align: center;
+	font-weight: bold;
+	color: #C5C6C7;
+	border-bottom: 1px solid rgba(255, 255, 255, .4);
+}
+
+.about h4{
+	font-weight: bold;
+	color: #C5C6C7;
+}
+
+.about h6{
+	font-weight: bold;
+	color: #C5C6C7;
+}
+
+.about ul{
+	padding-left: 1.6em;
+}
+
+.about li{
+	color: #C5C6C7;
+}
+
+/* Habilidades */
+
+.skills{
+	background-color: #1F2833;
+	border-radius: 10px;
+	border: 1px solid #66FCF1;
+	box-shadow: 0 0 30px rgb(0 0 0 / 20%);
+	line-height: 1.5;
+	padding: 1.6rem;
+}
+
+.skills h2{
+	text-align: center;
+	font-weight: bold;
+	color: #C5C6C7;
+	border-bottom: 1px solid rgba(255, 255, 255, .4);
+}
+
+.skills ul{
+	padding-left: 1.6em;
+}
+
+.skills li{
+	color: #C5C6C7;
+}
+
+/* Pie de pagina */
+
+.piePagina{
+	align-items: center;
+	border: 1px solid #66FCF1;
+	border-radius: 10px;
+	background-color: #1F2833;
+	
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 0.6rem;
+}
+
+.github_icon{
+	width: 25px;
+	margin-right: 5px;
+}
+
+.github_btn{
+	align-items: center;
+	color: #66FCF1;
+	display: flex;
+	flex-direction: row;
+	text-decoration: none;
+}
+
+.cv_btn{
+	align-items: center;
+	color: #66FCF1;
+	display: flex;
+	flex-direction: row;
+	text-decoration: none;
+}
+
+.copy{
+	font-weight: bold;
+	color: #C5C6C7;
+}
+
+@media only screen and (max-width: 460px){
+	.piePagina{
+		flex-direction: column;
+	}
+
+	.github_btn, .cv_btn, .copy{
+		margin-bottom: 1.2rem;
+	}
+}
+
+/* Barra de scroll */
+
+/*-- anchura --*/
+*::-webkit-scrollbar{
+	width: 12px;
+}
+
+/*-- tracker --*/
+*::-webkit-scrollbar-track{
+	background: #0B0C10;
+}
+
+/*-- barra --*/ 
+*::-webkit-scrollbar-thumb{
+	background-color: #66FCF1;
+	border-radius: 5px;
+	border: 3px solid #0B0C10;
+}
