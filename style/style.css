@@ -78,7 +78,7 @@ header{
 	text-align: center;
 }
 
-.fb_icon{
+.github_icon{
 	width: 100px;
 }
 
@@ -91,7 +91,11 @@ header{
 }
 
 @media only screen and (max-width: 599px){
-	.fb_icon, .linkedin_icon, .tgram_icon{
+	.rrss{
+		text-align: center;
+	}
+
+	.github_icon, .linkedin_icon, .tgram_icon{
 		width: 75px;
 	}
 }
@@ -177,19 +181,6 @@ header{
 	padding: 0.6rem;
 }
 
-.github_icon{
-	width: 25px;
-	margin-right: 5px;
-}
-
-.github_btn{
-	align-items: center;
-	color: #66FCF1;
-	display: flex;
-	flex-direction: row;
-	text-decoration: none;
-}
-
 .cv_btn{
 	align-items: center;
 	color: #66FCF1;
@@ -208,7 +199,7 @@ header{
 		flex-direction: column;
 	}
 
-	.github_btn, .cv_btn, .copy{
+	.cv_btn, .copy{
 		margin-bottom: 1.2rem;
 	}
 }
@@ -310,7 +301,7 @@ header{
 	text-align: center;
 }
 
-.fb_icon{
+.github_icon{
 	width: 100px;
 }
 
@@ -323,7 +314,11 @@ header{
 }
 
 @media only screen and (max-width: 599px){
-	.fb_icon, .linkedin_icon, .tgram_icon{
+	.rrss{
+		text-align: center;
+	}
+
+	.github_icon, .linkedin_icon, .tgram_icon{
 		width: 75px;
 	}
 }
@@ -409,19 +404,6 @@ header{
 	padding: 0.6rem;
 }
 
-.github_icon{
-	width: 25px;
-	margin-right: 5px;
-}
-
-.github_btn{
-	align-items: center;
-	color: #66FCF1;
-	display: flex;
-	flex-direction: row;
-	text-decoration: none;
-}
-
 .cv_btn{
 	align-items: center;
 	color: #66FCF1;
@@ -440,7 +422,7 @@ header{
 		flex-direction: column;
 	}
 
-	.github_btn, .cv_btn, .copy{
+	.cv_btn, .copy{
 		margin-bottom: 1.2rem;
 	}
 }
