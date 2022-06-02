@@ -62,6 +62,14 @@ header{
 
 /* Contenido */
 
+.contenedor{
+	margin-bottom: 20px;
+}
+
+.about, .projects, .jobs, .educacion, .skills{
+	padding: 2.6rem;
+}
+
 .contenido{
 	margin: 0 auto;
 	max-width: 825px;
@@ -78,15 +86,15 @@ header{
 }
 
 .github_icon{
-	width: 100px;
+	width: 90px;
 }
 
 .linkedin_icon{
-	width: 100px;
+	width: 90px;
 }
 
 .tgram_icon{
-	width: 100px;
+	width: 90px;
 }
 
 @media only screen and (max-width: 599px){
@@ -108,7 +116,6 @@ header{
 	box-shadow: 0 0 30px rgb(0 0 0 / 20%);
 
 	line-height: 1.5;
-	padding: 1.6rem;
 }
 
 .about p{
@@ -122,21 +129,102 @@ header{
 	border-bottom: 1px solid rgba(255, 255, 255, .4);
 }
 
-.about h4{
+/* Portfolio */
+
+.projects{
+	background-color: #1F2833; 
+	border-radius: 10px;
+	border: 1px solid #66FCF1;
+	box-shadow: 0 0 30px rgb(0 0 0 / 20%);
+
+	line-height: 1.5;
+}
+
+.projects h2{
+	text-align: center;
+	font-weight: bold;
+	color: #C5C6C7;
+	border-bottom: 1px solid rgba(255, 255, 255, .4);
+}
+
+.practice{
+	text-align: center;
+}
+
+.practice h3{
+	color: #66FCF1;
+}
+
+@media only screen and (max-width: 599px){
+	.practice_img{
+		max-width: 210px;
+		width: 100%;
+	}
+}
+
+/* Exp Laboral */
+
+.jobs{
+	background-color: #1F2833; 
+	border-radius: 10px;
+	border: 1px solid #66FCF1;
+	box-shadow: 0 0 30px rgb(0 0 0 / 20%);
+
+	line-height: 1.5;
+}
+
+.jobs h2{
+	text-align: center;
+	font-weight: bold;
+	color: #C5C6C7;
+	border-bottom: 1px solid rgba(255, 255, 255, .4);
+}
+
+.jobs h4{
 	font-weight: bold;
 	color: #C5C6C7;
 }
 
-.about h6{
-	font-weight: bold;
+.jobs h6{
 	color: #C5C6C7;
 }
 
-.about ul{
+.jobs ul{
 	padding-left: 1.6em;
 }
 
-.about li{
+.jobs li{
+	color: #C5C6C7;
+}
+
+/* Educacion */
+
+.educacion{
+	background-color: #1F2833; 
+	border-radius: 10px;
+	border: 1px solid #66FCF1;
+	box-shadow: 0 0 30px rgb(0 0 0 / 20%);
+
+	line-height: 1.5;
+}
+
+.educacion h2{
+	text-align: center;
+	font-weight: bold;
+	color: #C5C6C7;
+	border-bottom: 1px solid rgba(255, 255, 255, .4);
+}
+
+.educacion h4{
+	font-weight: bold;
+	color: #C5C6C7;
+}
+
+.educacion ul{
+	padding-left: 1.6em;
+}
+
+.educacion li{
 	color: #C5C6C7;
 }
 
@@ -148,7 +236,6 @@ header{
 	border: 1px solid #66FCF1;
 	box-shadow: 0 0 30px rgb(0 0 0 / 20%);
 	line-height: 1.5;
-	padding: 1.6rem;
 }
 
 .skills h2{
