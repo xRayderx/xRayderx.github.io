@@ -105,7 +105,7 @@ header{
 	margin-bottom: 1.6rem;
 }
 
-.rrss{
+/* .rrss{
 	text-align: center;
 }
 
@@ -135,6 +135,46 @@ header{
 	.github_icon, .linkedin_icon, .tgram_icon{
 		width: 55px;
 	}
+} */
+
+/* Redes */
+
+#navLateral a{
+	position: fixed;
+	left: -115px;
+	transition: .25s;
+	padding: 15px;
+	width: 130px;
+	text-decoration: none;
+	font-size: 15px;
+	color: #0B0C10;
+	border-radius: 0 6px 6px 0;
+}
+
+#navLateral img{
+	width: 20px;
+	height: 20px;
+	margin-left: 9px;
+}
+
+#navLateral a:hover{
+	left: 0;
+	opacity: .9;
+}
+
+#github_icon{
+	top: 180px;
+	background-color: #66FCF1; 
+}
+
+#linkedin_icon{
+	top: 240px;
+	background-color: #66FCF1; 
+}
+
+#tgram_icon{
+	top: 300px;
+	background-color: #66FCF1; 
 }
 
 /* Acerca de mi */
