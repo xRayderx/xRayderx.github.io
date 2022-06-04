@@ -47,6 +47,30 @@ header{
 }
 
 @media only screen and (max-width: 599px){
+	#subhead{
+		font-size: 1.6em;
+	}
+}
+
+@media only screen and (max-width: 484px){
+	#subhead{
+		font-size: 1.4em;
+	}
+}
+
+@media only screen and (max-width: 428px){
+	#subhead{
+		font-size: 1.2em;
+	}
+}
+
+@media only screen and (max-width: 372px){
+	#subhead{
+		font-size: 1.1em;
+	}
+}
+
+/* @media only screen and (max-width: 599px){
 	.nombre{
 		font-size: 1.2em;
 		letter-spacing: 2px;
@@ -58,7 +82,7 @@ header{
 		font-size: 1.1em;
 		letter-spacing: 2px;
 	}
-}
+} */
 
 /* Contenido */
 
@@ -104,6 +128,12 @@ header{
 
 	.github_icon, .linkedin_icon, .tgram_icon{
 		width: 75px;
+	}
+}
+
+@media only screen and (max-width: 425px){
+	.github_icon, .linkedin_icon, .tgram_icon{
+		width: 55px;
 	}
 }
 
