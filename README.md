@@ -1,3 +1,7 @@
 Jose Martinez | Resumen
 
-pagina creada utilizando la libreria CSS => Chota.css
+Pagina web creada utilizando la libreria CSS => Chota.css
+
+Jose Martinez | Resume 
+
+Web page created using Chota.css library
