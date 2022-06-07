@@ -105,76 +105,37 @@ header{
 	margin-bottom: 1.6rem;
 }
 
-/* .rrss{
-	text-align: center;
-}
-
-.github_icon{
-	width: 90px;
-}
-
-.linkedin_icon{
-	width: 90px;
-}
-
-.tgram_icon{
-	width: 90px;
-}
-
-@media only screen and (max-width: 599px){
-	.rrss{
-		text-align: center;
-	}
-
-	.github_icon, .linkedin_icon, .tgram_icon{
-		width: 75px;
-	}
-}
-
-@media only screen and (max-width: 425px){
-	.github_icon, .linkedin_icon, .tgram_icon{
-		width: 55px;
-	}
-} */
-
 /* Redes */
 
-#navLateral a{
+#social-icons{
+	padding: 0;
 	position: fixed;
-	left: -115px;
-	transition: .25s;
-	padding: 15px;
-	width: 130px;
-	text-decoration: none;
-	font-size: 15px;
-	color: #0B0C10;
-	border-radius: 0 6px 6px 0;
-}
-
-#navLateral img{
-	width: 20px;
-	height: 20px;
-	margin-left: 9px;
-}
-
-#navLateral a:hover{
+	top: 50%;
 	left: 0;
-	opacity: .9;
+	transform: translateY(-50%);
+	z-index: 100;
 }
 
-#github_icon{
-	top: 180px;
-	background-color: #66FCF1; 
+.social-icons{
+	list-style: none;
 }
 
-#linkedin_icon{
-	top: 240px;
-	background-color: #66FCF1; 
+.social-icons li{
+	display: block;
+	margin: 2px 0px;
 }
 
-#tgram_icon{
-	top: 300px;
-	background-color: #66FCF1; 
+.social-icons img{
+	width: 35px;
+	height: 35px;
+}
+
+@media only screen and (max-width: 1199px){
+	.social-icons li a{
+		width: 30px;
+		height: 30px;
+		display: inline-block;
+	}
 }
 
 /* Acerca de mi */
