@@ -106,6 +106,7 @@ header{
 
 .contenedor{
 	margin-bottom: 20px;
+	animation: fadeIn 3s;
 }
 
 .about, .projects, .jobs, .educacion, .skills{
