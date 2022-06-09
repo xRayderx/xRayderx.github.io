@@ -14,6 +14,23 @@ main{
 
 /* Cabecera */
 
+.resume_lang{
+	display: flex;
+	flex-direction: row-reverse;
+	margin-top: 1.2em;
+	margin-right: 1.2em;
+}
+
+.eng_flag{
+	width: 25px;
+	height: 25px;
+}
+
+.esp_flag{
+	width: 25px;
+	height: 25px;
+}
+
 header{
 	margin: 1.6rem 0;
 }
@@ -35,6 +52,7 @@ header{
 
 #subhead{
 	text-align: center;
+	animation: fadeIn 3s
 }
 
 .nombre{
@@ -319,6 +337,13 @@ header{
 	.cv_btn, .copy{
 		margin-bottom: 1.2rem;
 	}
+}
+
+/* Animacion */
+
+@keyframes fadeIn{
+	0%{opacity: 0;}
+	100%{opacity: 1;}
 }
 
 /* Barra de scroll */
